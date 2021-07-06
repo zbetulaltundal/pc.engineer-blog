@@ -1,0 +1,98 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body{
+    background-color: #151b29;
+    font-family: consolas;
+    box-sizing: border-box;
+}
+
+#navbar-brand{
+    color: #151b29;
+    background-color: #ffa260;
+    padding: 0.5em;
+}
+
+#navLinks{
+    padding-right: 0;
+}
+
+#navLinks #categories li:first-child{
+    padding-right: 0.2em;
+}
+
+#navLinks ul li .link{
+    color: rgba(255, 255, 255, 0.479);
+    transition: 0.4s color cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-decoration: none;
+    border-bottom: 3px dashed rgba(255, 255, 255, 0.479);
+}
+
+#navLinks ul li .link:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#navLinks ul li .icon{
+    border-bottom: none;
+}
+
+#navLinks ul li .icon:hover{
+    opacity: 0.6;
+}
+
+#nav-icons{
+    padding-right: 0;
+}
+
+#mainNavbar, section{
+    width: 50%;
+}
+
+h2{
+    color: #ffa260;
+}
+
+#expand a{
+    color: #f1ff5c;
+    text-decoration: none;
+}
+
+section{
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.interest{
+    color: #f1ff5c;
+}
+
+#about-second-paragraph{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #43b7b1;
+}
+
+@media (max-width: 1100px){
+    section .container-md{
+        margin: auto 0;
+    }
+    #mainNavbar, section{
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    #mainNavbar, section{
+        width: 90%;
+    }
+    
+    #about-first-paragraph{
+        margin-top: 40px;
+    }
+
+    #about-second-paragraph{
+        margin-top: 40px;
+    }
+}
